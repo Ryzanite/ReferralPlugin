@@ -1,0 +1,10 @@
+name: Referral
+version: '1'
+main: io.ryzanite.referral.Referral
+api-version: 1.19
+load: STARTUP
+description: Referral plugin which gives users tokens upon referring a player
+commands:
+  referral:
+    description: Allows players to refer other players to the server.
+    usage: /referral <username>
